@@ -1,0 +1,28 @@
+.loading {
+  width: 70px;
+  height: 70px;
+  animation-name: rotation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.loading_wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  background-color: rgb(154, 157, 165, 0.5);
+  z-index: 2;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

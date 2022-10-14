@@ -1,0 +1,12 @@
+.main {
+  flex-grow: 1;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  background-color: rgb(154, 157, 165, 0.2);
+  margin-top: 58px;
+  overflow: auto;
+}

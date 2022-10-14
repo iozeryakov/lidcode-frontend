@@ -1,0 +1,164 @@
+.adminmain-content {
+  padding: 40px;
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.adminmain-title {
+  margin: 0 0 20px 30px;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 750px;
+}
+.admincontent_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  border: 2px solid #dedede;
+}
+
+.admincontent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.panel {
+  margin-bottom: 40px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  height: 100%;
+  border-right: 2px solid #dedede;
+}
+.content_label {
+  padding: 15px 0 15px 15px;
+  min-width: 140px;
+}
+.wrapper_buttons {
+  padding: 0 15px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.button_del {
+  padding: 5px 10px;
+  margin: 10px 20px;
+  background-color: rgb(222, 222, 222, 0.2);
+  border: 1px solid #dedede;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: none;
+  transition: background-color ease-out 0.3s;
+}
+.button_del:hover {
+  background-color: rgb(222, 222, 222);
+}
+.content_info {
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color ease-out 0.3s;
+}
+.content_info:hover {
+  background-color: #dedede;
+}
+.BackNext {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.BackNext_label {
+  margin: 0 40px;
+  cursor: pointer;
+  transition: color ease-out 0.3s;
+}
+.BackNext_label:hover {
+  color: rgb(60, 60, 60, 0.6);
+}
+.marg200 {
+  margin-top: 20px;
+  margin-bottom: 220px;
+}
+.textarea {
+  max-width: 300px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid black;
+
+  width: 300px;
+  max-height: 200px;
+  height: 200px;
+  resize: none;
+}
+.admininput_text {
+  max-width: 200px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.borderRed {
+  border-bottom: 2px solid red;
+}
+.reg_admin__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.maxWidth {
+  max-width: 50px;
+}
+.mar {
+  margin: 20px 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.selectml {
+  overflow: auto;
+  width: 100%;
+  max-width: 200px;
+  min-height: 190px;
+}
+.select {
+  overflow: auto;
+  width: 100%;
+  max-width: 200px;
+}
+.cursorDefault {
+  cursor: default;
+}

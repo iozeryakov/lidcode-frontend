@@ -1,0 +1,89 @@
+.button_del {
+  padding: 5px 10px;
+  margin: 10px 20px;
+  background-color: rgb(222, 222, 222, 0.2);
+  border: 1px solid #dedede;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: background-color ease-out 0.3s;
+}
+.admininput_text {
+  max-width: 200px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.reg_admin__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+.mar {
+  margin: 20px 0;
+}
+.adminmain-content {
+  padding: 40px;
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.adminmain-title {
+  margin: 0 0 20px 30px;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.admincontent {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: row;
+  align-content: center;
+  width: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.panel {
+  margin-bottom: 40px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.wrapper_buttons {
+  padding: 0 15px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.button_del {
+  padding: 5px 10px;
+  background-color: rgb(222, 222, 222, 0.2);
+  border: 1px solid #dedede;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: none;
+  transition: background-color ease-out 0.3s;
+}
+.button_del:hover {
+  background-color: rgb(222, 222, 222);
+}

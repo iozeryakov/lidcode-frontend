@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  z-index: 3;
+  top: 80px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rcolor {
+  background-color: red;
+}
+.gcolor {
+  background-color: green;
+}
+.modal-content {
+  border-radius: 8px;
+  border: 1px solid rgb(154, 157, 165);
+}
+.modal_body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
