@@ -8,6 +8,7 @@ interface IProps {
   data: IEvent;
   dateNow: Date;
 }
+
 export const Card: FC<IProps> = ({ data, dateNow }: IProps) => {
   return (
     <div className="card-content">
