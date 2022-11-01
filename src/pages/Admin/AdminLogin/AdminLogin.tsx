@@ -63,6 +63,10 @@ export const AdminLogin: FC = () => {
                   value={name.value}
                   onBlur={(e) => name.onBlur()}
                   onChange={(e) => name.onChange(e)}
+                  onKeyDown={(event)=>{
+                    if(event.key==="Enter")
+                      authorization();
+                  }}
                 />
                 {name.isDirty && !name.inputValid && (
                   <div className="red">*</div>
@@ -82,6 +86,10 @@ export const AdminLogin: FC = () => {
                   value={password.value}
                   onBlur={(e) => password.onBlur()}
                   onChange={(e) => password.onChange(e)}
+                  onKeyDown={(event)=>{
+                    if(event.key==="Enter")
+                      authorization();
+                  }}
                 />
                 {password.isDirty && !password.inputValid && (
                   <div className="red">*</div>
