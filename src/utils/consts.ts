@@ -15,5 +15,5 @@ export const ADMIN_ORGANIZER_NEW_ROUTER = "admin/organizer/new";
 export const ADMIN_PARTICIPANT_NEW_ROUTER = "admin/participant/new";
 export const ADMIN_TEAM_NEW_ROUTER = "admin/team/new";
 export const ADMIN_EVENT_NEW_ROUTER = "admin/event/new";
-export const API_URL = "http://localhost:5000/";
-export const API_IMG = "http://localhost:5000/";
+export const API_URL = "http://85.192.35.202:5000/";
+export const API_IMG = "http://85.192.35.202:5000/";
