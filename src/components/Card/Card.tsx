@@ -11,7 +11,6 @@ interface IProps {
 export const Card: FC<IProps> = ({ data, dateNow }: IProps) => {
   return (
     <div className="card-content">
-      
       <div className="card_info">
         <Link className="card_name" to={EVENT_ROUTER + "/" + data.id}>
           {data.name}
