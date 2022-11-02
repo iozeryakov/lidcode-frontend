@@ -261,8 +261,8 @@ export const AdminTeamNew: FC = () => {
           </div>
           <div className="reg_admin__item">
             <div className="column">
-              <label className="label mar">Выберите конактное лицо:</label>
-              <label className="label mar">Выбкрите тренера:</label>
+              <label className="label mar">Выберите контактное лицо:</label>
+              <label className="label mar">Выберите тренера:</label>
             </div>
             <div className="column">
               <select

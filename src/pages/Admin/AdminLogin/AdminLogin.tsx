@@ -51,7 +51,7 @@ export const AdminLogin: FC = () => {
         </h1>
       ) : (
         <div className="main-wrapper registr">
-          <h1 className="main-title">Аунтификация</h1>
+          <h1 className="main-title">Аутентификация</h1>
           <div className="main-content">
             <form className="reg_form">
               <div className="reg_form__item">
